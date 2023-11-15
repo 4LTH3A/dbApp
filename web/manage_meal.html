@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manage Meals</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 50vh;
+                margin: 0;
+            }
+
+            h1, form {
+                margin-bottom: 20px;
+            }
+            
+            form input[type="submit"] {
+                padding: 5px 10px; /* Adjust the values as needed */
+                font-size: 14px;   /* Adjust the font size as needed */
+            }
+            
+            form {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Menu Management</h1>
+        <form action="manage_meal_processing.jsp" >
+            Staff ID:  <input type="text" id="staff_id" name="staff_id"><br><br><!-- get the id of the staff to be able to add/remove meal -->
+            <input type="Submit" value="Submit">
+        </form>
+    </body>
+</html>

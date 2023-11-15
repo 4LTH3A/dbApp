@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dining Management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 70vh;
+                margin: 0;
+            }
+
+            h1, form {
+                margin-bottom: 20px;
+            }
+            
+            form input[type="submit"] {
+                padding: 10px 20px; /* Adjust the values as needed */
+                font-size: 16px;   /* Adjust the font size as needed */
+            }
+            
+            form {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Dining Management</h1>
+        <form action="add_order.html">
+            <input type="submit" value="Place an order">
+        </form>
+        
+        <form action="manage_meal.html"><br>
+            <input type="submit" value="Manage Meals">
+        </form>
+        
+        <form action="manage_ingredients.html"><br>
+            <input type="submit" value="Manage Ingredients">
+        </form>
+        
+        <form action="manage_staff.html"><br>
+            <input type="submit" value="Manage Staff">
+        </form>
+        
+        <form action="generate_report.html"><br>
+            <input type="submit" value="Generate Report">
+        </form>
+        
+        <form action="view_prder_history.html"><br>
+            <input type="submit" value="View Order History">
+        </form>
+    </body>
+</html>

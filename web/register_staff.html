@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Register A Staff</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 50vh;
+                margin: 0;
+            }
+
+            h1, form {
+                margin-bottom: 20px;
+            }
+            
+            form input[type="submit"] {
+                padding: 10px 10px; /* Adjust the values as needed */
+                font-size: 15px;   /* Adjust the font size as needed */
+            }
+            
+            form {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Register A Staff</h1>
+        <h3>Input Staff Information</h3>
+        <form action = "register_staff_processing.jsp">
+            Last Name: <label for="lastname"></label><input type="text" id="lastname" name="lastname"><br><br>
+            Middle Name: <label for="middlename"></label><input type="text" id="middlename" name="middlename"><br><br>
+            First Name: <label for="firstname"></label><input type="text" id="firstname" name="firstname"><br><br>
+            Mobile No: <label for="mobile_no"></label><input type="text" id="mobile_no" name="mobile_no"><br><br>
+            Email Address: <label for="email_add"></label><input type="text" id="email_add" name="email_add"><br><br>
+            Salary: <label for="salary"></label><input type="text" id="salary" name="salary"><br><br>
+            Position: <label for="position"></label><input type="text" id="position" name="position"><br><br>
+            <input type = "submit" value = "Submit">
+        </form>
+    </body>
+</html>
