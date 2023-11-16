@@ -51,6 +51,10 @@
                 <form action="firing_staff.html">
                     <input type="submit" value="Fire Staff">
                 </form>
+                
+                <form action="index.html">
+                    <input type="submit" value="Return to Menu">
+                </form>
         <%  } else { 
         %>
             <h1>Not Authorized to Access</h1>

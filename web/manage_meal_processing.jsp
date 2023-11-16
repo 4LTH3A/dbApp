@@ -57,6 +57,10 @@
                 <form action="delete_meal.html">
                     <br><input type="submit" value="Remove Meal">
                 </form>
+                
+                <form action="index.html">
+                    <br><input type="submit" value="Return to Menu">
+                </form>
         <%  } else { 
         %>
             <h1>Not Authorized to Access</h1>
