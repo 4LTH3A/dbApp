@@ -45,6 +45,11 @@ public class Order {
                 transaction_idList.add(rst.getInt("transaction_id"));
                 customer_idList.add(rst.getInt("customer_id"));
                 order_statusList.add(rst.getString("order_status"));
+                
+                //debugging
+                System.out.println(rst.getInt("transaction_id"));
+                System.out.println(rst.getInt("customer_id"));
+                System.out.println(rst.getString("order_status"));
             }
 
             pstmt.close();
@@ -112,7 +117,7 @@ public class Order {
         order.insertOrder();
         */
         // Displaying the orders
-        order.viewOrders();
+        //order.viewOrders();
 
     }
 }

@@ -49,8 +49,15 @@ public class Payment {
                 transaction_idList.add(rst.getInt("transaction_id"));
                 totalDueList.add(rst.getFloat("totalDue"));
                 cashList.add(rst.getFloat("cash"));
-                changeList.add(rst.getFloat("change"));
-                authorizing_staff_idList.add(rst.getInt("authorizing_staff_id"));
+                changeList.add(rst.getFloat("amount_change"));
+                authorizing_staff_idList.add(rst.getInt("authorizing_employee_id"));
+                
+                //debugging
+                System.out.println(rst.getInt("transaction_id"));
+                System.out.println(rst.getFloat("totalDue"));
+                System.out.println(rst.getFloat("cash"));
+                System.out.println(rst.getFloat("amount_change"));
+                System.out.println(rst.getInt("authorizing_employee_id"));
             }
 
             pstmt.close();
