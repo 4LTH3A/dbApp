@@ -54,6 +54,10 @@
                     <br><input type="submit" value="Add Ingredients">
                 </form>
                 
+                <form action="update_meal_ingredients.html">
+                    <br><input type="submit" value="Update Meal Ingredients">
+                </form>
+                
                 <form action="view_ingredients.jsp">
                     <br><input type="submit" value="View Ingredients">
                 </form>
