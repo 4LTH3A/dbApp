@@ -61,6 +61,10 @@
                 <form action="view_meal_ingredients.jsp">
                     <br><input type="submit" value="View Meal Ingredients">
                 </form>
+                
+                <form action="index.html">
+                    <br><input type="submit" value="Return to Menu">
+                </form>
         <%  } else { 
         %>
             <h1>Not Authorized to Access</h1>
